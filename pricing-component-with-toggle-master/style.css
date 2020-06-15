@@ -269,7 +269,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 30vw;
-    height: 120vh;
+    height: 100vh;
     position: absolute;
     z-index: -1;
     top: 0;
@@ -514,10 +514,6 @@ body::before {
   text-decoration: none;
   color: hsl(232, 13%, 33%)
 }
-
-
-
-
 
 
 
