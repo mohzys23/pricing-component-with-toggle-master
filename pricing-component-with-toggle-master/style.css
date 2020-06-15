@@ -291,7 +291,7 @@
  #Div2 {
    width: 100%;
    justify-content: center;
-   display: flex;
+   display: none;
  }
 
 /* Toogle check box */
