@@ -314,6 +314,10 @@
   margin: auto;
  }
 
+ label:hover  {
+     background: linear-gradient(to right,hsl(236, 72%, 89%), hsl(237, 63%, 74%));
+ }
+
  label:after {
   content: '';
   position: absolute;
@@ -389,7 +393,7 @@
 }
 
 .box-1 h1 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-top: 5%;
 }
 
@@ -432,6 +436,13 @@
 }
 
 
+.box-1 button:hover {
+  background: white;
+  color:  hsl(237, 63%, 64%);
+  border: 0.5px solid  hsl(237, 63%, 64%);
+}
+
+
 
 .box-2 {
   width: 25%;
@@ -443,7 +454,7 @@
 
 
 .box-2 h1 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-top: 5%;
 }
 
@@ -486,6 +497,12 @@
   outline: none;
 }
 
+.box-2 button:hover {
+  background: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+  border: 0.5px solid white ;
+}
+
 
 
 body::before {
@@ -516,6 +533,12 @@ body::before {
   text-decoration: none;
   color: hsl(232, 13%, 33%)
 }
+
+
+
+
+
+
 
 
 
