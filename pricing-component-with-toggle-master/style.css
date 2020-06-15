@@ -391,6 +391,7 @@
   border-radius: 10px;
   color: hsl(232, 13%, 33%);
   height: 65vh;
+padding-bottom: 1%;
 }
 
 .box-1 h1 {
@@ -450,9 +451,8 @@
   background: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   border-radius: 10px;
   color: white;
-  
-height: 70vh;
-margin-top: -15px;
+height: 72vh;
+margin-top: -12px;
 }
 
 
