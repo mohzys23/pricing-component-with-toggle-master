@@ -244,7 +244,14 @@
   color: hsl(232, 13%, 33%)
 }
 
- 
+
+
+
+
+
+}
+
+
 @media (min-width: 551px) {
 
   body {
@@ -484,7 +491,7 @@ body::before {
     height: 50vh;
     position: absolute;
     z-index: -1;
-    top: 3;
+    top: 0;
     right: 3;
     background-size: cover;
     margin-top: 35%;
@@ -496,7 +503,6 @@ body::before {
   width: 80%;
   margin-left: 10%;
   margin-top: 5%;
-  margin-bottom: 2%;
   font-size: 0.6rem;
   color: hsl(232, 13%, 33%);
 }
@@ -506,24 +512,6 @@ body::before {
   text-decoration: none;
   color: hsl(232, 13%, 33%)
 }
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
