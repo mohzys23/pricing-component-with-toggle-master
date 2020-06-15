@@ -244,6 +244,276 @@
   color: hsl(232, 13%, 33%)
 }
 
+ 
+@media (min-width: 551px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    Font size: 15px;
+    background-color:   hsl(240, 78%, 98%);
+    color: hsl(233, 13%, 49%);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body::after {
+    content: '';
+    background-image: url(images/bg-top.svg);
+    width: 30vw;
+    height: 120vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .wrapper {
+    width: 100%;
+    background-position: right;
+    background-size: contain;
+    text-align: center;
+  }
+
+
+
+ #Div2 {
+   display: none;
+ }
+
+/* Toogle check box */
+ input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+ }
+
+ label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 40px;
+  height: 25px;
+  background: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  outline: none;
+  margin: auto;
+ }
+
+ label:after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.5s;
+  outline: none;
+ }
+
+ input:checked + label {
+     background: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  outline: none;
+ }
+
+ input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+ }
+
+ label:active:after {
+  width: 10px;
+ }
+
+ .wrapper h1 {
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 5%;
+   font-size: 1.4rem;
+   font-weight: 700;
+ }
+
+
+.header {
+  width: 100%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-around;
+  color:  hsl(234, 14%, 74%);
+  margin-bottom: 5%;
+}
+
+.header h2 {
+  width: 10%;
+  font-size: 0.7rem;
+  margin-left: 37%;
+  padding-top: 3px;
+}
+
+
+.header h3 {
+ width: 10%;
+  font-size: 0.7rem;
+  margin-right: 37%;
+}
+
+ #Div1{
+   width: 100%;
+   display: flex;
+   justify-content:center;
+ }
+
+
+
+.box-1 {
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+  color: hsl(232, 13%, 33%);
+}
+
+.box-1 h1 {
+  font-size: 0.8rem;
+  padding-top: 5%;
+}
+
+.box-1 h2 {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border-bottom: 0.5px solid hsl(234, 14%, 74%);
+  font-weight: 700;
+  padding: 3% 0;
+}
+
+.box-1 p {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 4%;
+  font-size: 0.7rem;
+  text-align: center;
+  color:  hsl(233, 13%, 49%);
+  font-weight: 700;
+  border-bottom: 0.5px solid hsl(234, 14%, 74%);
+}
+
+.box-1 button {
+  width: 80%;
+  padding: 4% 0;
+  color: white;
+  background: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.7rem;
+  margin-top: 4%;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+
+
+.box-2 {
+  width: 25%;
+  background: linear-gradient(to right,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  border-radius: 10px;
+  color: white;
+}
+
+
+
+.box-2 h1 {
+  font-size: 0.8rem;
+  padding-top: 5%;
+}
+
+.box-2 h2 {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border-bottom: 0.5px solid hsl(234, 14%, 74%);
+  font-weight: 700;
+  padding: 3% 0;
+}
+
+.box-2 p {
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 4%;
+  font-size: 0.7rem;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  border-bottom: 0.5px solid hsl(234, 14%, 74%);
+}
+
+.box-2 button {
+  width: 80%;
+  padding: 4% 0;
+  background-color: white;
+  color: hsl(237, 63%, 64%);
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 4%;
+  margin-bottom: 10%;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+
+
+body::before {
+    content: '';
+    background-image: url(images/bg-bottom.svg);
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+    z-index: -1;
+    top: 3;
+    right: 3;
+    background-size: cover;
+    margin-top: 35%;
+  }
+
+
+
+.attribution {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 0.6rem;
+  color: hsl(232, 13%, 33%);
+}
+
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(232, 13%, 33%)
+}
+
+
+
+
+
+
+
+}
 
 
 
